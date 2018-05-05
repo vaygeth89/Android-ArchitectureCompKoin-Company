@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Company Employees</string>
+    <string name="place_holder_short_text">Lorem Ipsum</string>
+    <string name="place_holder_medium_text">Lorem Ipsum is simply placeholder text</string>
+</resources>
