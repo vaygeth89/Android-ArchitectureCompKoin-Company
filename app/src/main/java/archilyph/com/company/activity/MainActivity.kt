@@ -13,6 +13,7 @@ import archilyph.com.company.view_model.MainActivityViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.architecture.ext.viewModel
 import java.util.*
+import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
@@ -47,7 +48,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun addOneEmployees()=
         mainActivityViewModel.insertEmployee(
-                Employee(null, name = "Employee", age = Random().nextInt((100-16)-16) ))
+                Employee(null, name = getRandomEmployeeNames(), age = Random().nextInt((100-16)-16) ))
 
+    //Return random Employee Name from the list
+    private fun getRandomEmployeeNames(): String {
+        val listOfNames : List<String> = listOf("Harold ","Sophia", "Omar","Aubrey",
+                "Owen", "Thomas", "Ali","Jonathan","Alyssa", "Maxwell", "Eleanor","Abraham", "Luna")
+        return listOfNames[Random().nextInt(listOfNames.size-0)]
+    }
 
 }
