@@ -25,15 +25,16 @@ class MainActivity : AppCompatActivity() {
         employee_list.layoutManager = LinearLayoutManager(this)
         mainActivityViewModel.setUpEmployees().observe(this, Observer { employees ->
             employee_list.adapter = EmployeesRecyclerViewAdapter(employees as MutableList<Employee>)
-            add_employees.setOnClickListener {
-                addOneEmployees()
-            }
 
-            delete_employee.setOnClickListener {
-                deleteAllEmployee()
-            }
         })
 
+        add_employees.setOnClickListener {
+            addOneEmployees()
+        }
+
+        delete_employee.setOnClickListener {
+            deleteAllEmployee()
+        }
 
     }
 
