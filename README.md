@@ -2,7 +2,6 @@
 This will demonstrate how to employ Koin dependency injection with Android Architechture Components
 ## Main Dependencies
 
-dependencies {
     implementation 'android.arch.persistence.room:runtime:1.1.0-rc1'
     implementation 'android.arch.persistence.room:rxjava2:1.1.0-rc1'
     implementation "android.arch.lifecycle:extensions:1.1.1"
@@ -15,4 +14,3 @@ dependencies {
 
     kapt "android.arch.persistence.room:compiler:1.1.0-rc1"
     kapt "android.arch.lifecycle:compiler:1.1.1"
-}
