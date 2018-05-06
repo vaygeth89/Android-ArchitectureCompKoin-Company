@@ -7,6 +7,7 @@ import android.util.Log
 import archilyph.com.company.model.Employee
 import archilyph.com.company.repository.EmployeeRepository
 
+//Natural to name your ViewModels after your front-end view
 class MainActivityViewModel(private val employeeRepository: EmployeeRepository)
     : ViewModel(){
 

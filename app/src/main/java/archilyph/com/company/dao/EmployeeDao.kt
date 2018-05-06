@@ -19,4 +19,7 @@ interface EmployeeDao {
     @Query("DELETE FROM employees")
     fun deleteAllEmployees()
 
+    //Not being used currently in this example project
+    @Delete
+    fun deleteEmployee(employee: Employee?)
 }

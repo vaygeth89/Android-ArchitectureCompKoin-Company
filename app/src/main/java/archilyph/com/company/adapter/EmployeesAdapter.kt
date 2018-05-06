@@ -1,10 +1,12 @@
 package archilyph.com.company.adapter
 
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import archilyph.com.company.R
 import archilyph.com.company.model.Employee
 import kotlinx.android.synthetic.main.employee_item.view.*

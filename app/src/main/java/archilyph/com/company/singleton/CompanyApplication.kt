@@ -10,7 +10,7 @@ import org.koin.android.ext.android.startKoin
 import org.koin.dsl.module.Module
 import org.koin.dsl.module.applicationContext
 
-
+//Koin modules will fetch & inject the dependencies for each class
 val koinModule : Module = applicationContext {
     viewModel { MainActivityViewModel(get()) }
     factory { CompanyRoomInstance(get()) }

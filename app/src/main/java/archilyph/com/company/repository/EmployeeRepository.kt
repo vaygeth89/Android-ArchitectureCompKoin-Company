@@ -15,4 +15,7 @@ class EmployeeRepository(private val databaseRepository: CompanyRoomInstance) {
     fun deleteAllEmployees() =
         databaseRepository.companyRoomDatabase.employeeDao().deleteAllEmployees()
 
+    //Not being used currently in this example project
+    fun deleteEmployee(employee: Employee) =
+            databaseRepository.companyRoomDatabase.employeeDao().deleteEmployee(employee)
 }
