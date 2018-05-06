@@ -34,7 +34,7 @@ class EmployeesRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = mValues[position]
-        holder.employeeNameTxtView.text = "Name: ${item.name}"
+        holder.employeeNameTxtView.text = "Employee: ${item.name}"
         holder.employeeAgeTxtView.text = "Age: ${item.age}"
 
         with(holder.mView) {

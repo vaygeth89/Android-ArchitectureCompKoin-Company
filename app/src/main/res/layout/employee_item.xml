@@ -48,7 +48,7 @@
             android:text="@string/place_holder_medium_text"
             android:textAppearance="?attr/textAppearanceListItem"
             android:textColor="@color/employee_name"
-            android:textSize="20sp" />
+            android:textSize="@dimen/employee_age" />
 
 
     </LinearLayout>

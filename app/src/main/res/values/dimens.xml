@@ -6,6 +6,6 @@
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
-    <dimen name="employee_name">18sp</dimen>
+    <dimen name="employee_name">22sp</dimen>
     <dimen name="employee_age">18sp</dimen>
 </resources>
