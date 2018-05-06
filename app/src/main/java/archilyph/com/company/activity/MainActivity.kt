@@ -16,7 +16,6 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-
     private val mainActivityViewModel: MainActivityViewModel by viewModel()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

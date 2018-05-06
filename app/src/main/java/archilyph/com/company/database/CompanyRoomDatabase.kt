@@ -2,7 +2,7 @@ package archilyph.com.company.database
 
 import android.arch.persistence.room.Database
 import android.arch.persistence.room.RoomDatabase
-import archilyph.com.company.data_access_object.EmployeeDao
+import archilyph.com.company.dao.EmployeeDao
 import archilyph.com.company.model.Employee
 
 
