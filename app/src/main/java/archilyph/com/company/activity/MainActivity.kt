@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun addOneEmployees()=
         mainActivityViewModel.insertEmployee(
-                Employee(null, name = getRandomEmployeeNames(), age = Random().nextInt((100-16)-16) ))
+                Employee(null, name = getRandomEmployeeNames(), age = Random().nextInt((100-16)) ))
 
     //Return random Employee Name from the list
     private fun getRandomEmployeeNames(): String {
